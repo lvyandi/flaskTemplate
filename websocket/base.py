@@ -50,6 +50,10 @@ class Base(object):
         sid = flask.request.sid
         print("websocket connect success")
 
+        # test thread
+
+
+
     def disconnect(self):
         print("websocket disconnect success")
 
